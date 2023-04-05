@@ -1,0 +1,16 @@
+.landingPopular {
+
+    padding: 30px 5% 0 5%;
+
+    >h2 {
+        color: var(--clr-fg);
+        opacity: 0.8;
+        font-size: 20px
+    }
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}

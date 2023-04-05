@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Niramit&family=Source+Sans+Pro&display=swap');
+
+  html,
+  body {
+
+      --bg-alt: #ffffff;
+      --clr: #050505;
+      --clr-fg: #121212;
+      --fg: #98ace1;
+
+      /* Landing Colors */
+      --bg: #f1f6fc;
+
+      --title-font: 'nirami', sans-serif;
+
+
+      color: var(--clr);
+      background-color: var(--bg);
+
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
