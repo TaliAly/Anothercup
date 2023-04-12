@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,
+body {
+  --bg-alt: #ffffff;
+  --clr: #050505;
+  --clr-fg: #121212;
+  --fg: #98ace1;
+
+  /* Landing Colors */
+  --bg: #f1f6fc;
+
+  /* Post Colors */
+  --post-bg: #ffffff;
+  --post-text: #121212;
+  --post-text-hover: #ffffff;
+  --post-bg-hover: #6572c6;
+
+  --title-font: 'nirami', sans-serif;
+
+  color: var(--clr);
+  background-color: var(--bg);
+
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  object-fit: cover;
+}

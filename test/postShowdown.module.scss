@@ -1,0 +1,19 @@
+// create a div with a flex container centered for the "posts" section
+
+.container {
+  > h2 {
+    text-align: center;
+  }
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10%;
+    flex-wrap: wrap;
+
+    > span > p {
+      text-align: center;
+    }
+  }
+}
