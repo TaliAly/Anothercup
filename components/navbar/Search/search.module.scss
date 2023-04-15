@@ -1,46 +1,43 @@
 .search {
-    background-color: rgba($color: #dfdfdf, $alpha: 0.4);
+  background-color: rgba($color: #dfdfdf, $alpha: 0.4);
 
-    &:hover {
-        box-shadow: var(--fg) 0px 1px 3px, var(--fg) 0px 0px 0px 3px;
-    }
+  &:hover {
+    box-shadow: var(--fg) 0px 1px 3px, var(--fg) 0px 0px 0px 3px;
+  }
 
-    &:focus-within {
-        box-shadow: var(--fg) 0px 1px 3px, var(--fg) 0px 0px 0px 3px;
-    }
+  &:focus-within {
+    box-shadow: var(--fg) 0px 1px 3px, var(--fg) 0px 0px 0px 3px;
+  }
 
+  transition: box-shadow 0.1s ease;
 
+  display: flex;
+  align-items: center;
+  height: 100%;
 
-    transition: box-shadow .1s ease;
+  border-radius: 10px;
+  padding: 0 5px;
+  font-size: 14px;
 
-    display: flex;
-    align-items: center;
-    height: 100%;
-
-
+  input {
+    width: 300px;
+    height: 28px;
     border-radius: 10px;
+
+    background-color: transparent;
+    align-self: center;
+    outline: none;
+    border: none;
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
     padding: 0 5px;
-    font-size: 16px;
+  }
 
-    input {
-        width: 300px;
-        height: 28px;
-        border-radius: 10px;
-
-        background-color: transparent;
-        align-self: center;
-        outline: none;
-        border: none;
-    }
-
-    svg {
-        width: 20px;
-        height: 20px;
-        padding: 0 5px;
-    }
-
-    button {
-        border: none;
-        background-color: inherit;
-    }
+  button {
+    border: none;
+    background-color: inherit;
+  }
 }

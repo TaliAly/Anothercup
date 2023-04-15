@@ -1,8 +1,6 @@
 import style from './../styles/pagesIndex.module.css'
 import Layout from './layout'
-import LandingHeader from './../components/landing/landingHeader'
-import LandingContent from '@/components/landing/landingContent'
-import LandingPopular from '@/components/landing/landingPopular'
+import Landing from '@/components/Landing'
 
 export default function Home() {
   return (
@@ -11,9 +9,7 @@ export default function Home() {
       description='Just an app to get info about exactly anything'
     >
       <main className={style.content}>
-        <LandingHeader />
-        <LandingPopular fetchUrl='null' />
-        <LandingContent fetchURL='null' />
+        <Landing />
       </main>
     </Layout>
   )

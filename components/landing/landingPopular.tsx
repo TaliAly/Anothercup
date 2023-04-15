@@ -1,6 +1,6 @@
 import style from './landingPopular.module.scss'
 import { useState, useEffect } from 'react'
-import { postProps } from '../types/posts'
+import { postProps } from '../../types/posts'
 import Post from '../posts/post'
 import { fetchData } from '@/Fapi/fakerApi'
 

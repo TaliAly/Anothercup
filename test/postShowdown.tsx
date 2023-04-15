@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { postProps } from '@/components/types/posts'
+import { postProps } from '@/types/posts'
 import style from './postShowdown.module.scss'
 import fakerApi from '@/Fapi/fakerApi'
 
